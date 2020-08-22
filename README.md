@@ -28,7 +28,7 @@ const rematchStatePlugin = require('rematch-state-plugin')
 import {init} from '@rematch/core'
 
 const store = init({
-  modules: {foo, bar},
+  models: {foo, bar},
   plugins: [rematchStatePlugin()],
 })
 ```
